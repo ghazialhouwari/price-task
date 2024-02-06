@@ -25,8 +25,9 @@ provide('selectedPrice', price)
 
 <style scoped>
 .price-wrapper {
-  width: 480px;
-  min-width: 480px;
+  width: 100vw;
+  max-width: 480px;
+  min-width: 360px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
